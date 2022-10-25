@@ -1,22 +1,22 @@
+import javax.lang.model.util.ElementScanner14;
+import javax.sql.rowset.JoinRowSet;
+
 public class Operadores {
     
     public static  void main (String [] args){
 
-        String concatenacao = "?";
+        boolean condicao1=true;
+        
+        boolean condicao2=false;
 
-        concatenacao = 1+1+1+"1";
-            System.out.println(concatenacao);
-        concatenacao = 1+"1"+1+1;
-            System.out.println(concatenacao);
+        if (condicao1 && condicao2){
 
-        concatenacao = 1+"1"+1+"1";
-            System.out.println(concatenacao);
+            System.out.print("Uma das condições é verdadeira");
 
-        concatenacao = "1"+1+1+1;
-            System.out.println(concatenacao);
+        }
+        
+        System.out.print("Fim.");
 
-        concatenacao = "1"+(1+1+1);
-            System.out.println(concatenacao);
     }
 
 
